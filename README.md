@@ -9,3 +9,5 @@ Inventory management is a learning Node.js application to manage basic inventory
   5. run: npm start
   6. try running the app in localhost:{port}.
 
+Task done by localBranch:)
+
