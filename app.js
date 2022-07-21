@@ -9,14 +9,12 @@ require('dotenv').config();
 // Setting static content
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static('public'));
-// End
 
 // Setting templating enging
 app.use(expressLayouts)
 app.set('layout', './layouts/main-layout')
 app.set('views', './src/views')
 app.set('view engine', 'ejs')
-// End
 
 // Making Db connection 
 require('./src/database/database.js')
